@@ -1,3 +1,0 @@
-@everyone
-Homework Challenge (optional):
-Try to write the carousel (refer to https://www.costco.ca/) ON YOUR OWN.
