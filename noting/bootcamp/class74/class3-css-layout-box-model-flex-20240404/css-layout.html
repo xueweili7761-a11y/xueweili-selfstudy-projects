@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css layout</title>
+    <link rel="stylesheet" href="css-layout.css">
+</head>
+<body>
+<h1>CSS layout</h1>
+<h2>Box Model</h2>
+<ul>
+    <li>border: border of the box</li>
+    <li>padding: distance b/w border and content</li>
+    <li>margin: distance b/w borders of boxes</li>
+</ul>
+<div class="box">hello, I am a box</div>
+<hr>
+<h2>Display</h2>
+<ol>
+    <li>display self: inline (span, button, input, img), block(div, h1, p), inline-block...</li>
+    <li>display children: <strong>flex</strong></li>
+</ol>
+<div class="container">
+    <div class="box2 right-200">
+        this is a content
+    </div>
+    <div class="box2 right-200">
+        this is a content
+    </div>
+    <div class="box2">
+        this is a content
+    </div>
+</div>
+<hr>
+<h2>Flex box-for children layout</h2>
+<p>In the parent container:</p>
+<ol>
+    <li>set display: flex</li>
+    <li>set flex direction (row by default)</li>
+    <li>align items/justify-content combo</li>
+    <li>flex-wrap ==> if child go next line</li>
+</ol>
+<div class="bigContainer">
+    <div class="smallBox">child1</div>
+    <div class="smallBox">child2</div>
+    <div class="smallBox">child3</div>
+    <div class="smallBox">child4</div>
+    <div class="smallBox">child5</div>
+    <div class="smallBox">child6</div>
+    <div class="smallBox">child7</div>
+</div>
+</body>
+</html>

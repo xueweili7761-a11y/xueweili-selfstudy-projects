@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css introduction</title>
+    <style>
+       .special {
+          color: red;
+          text-decoration: yellow underline solid;
+       }
+       h1 {
+           border: 1px solid black;
+       }
+    </style>
+    <link rel="stylesheet" href="css-intro.css">
+</head>
+<body>
+    <h1>this is a css intro page</h1>
+    <h2 style="font-size: 50px">how do we introduce css?</h2>
+    <ol>
+        <li style="color: blue; background-color: yellow">inside the element, add 'style' attribute</li>
+        <li class="special">give it a class name, then define it separately inside style tag</li>
+        <li class="special">third list item: define css separately</li>
+    </ol>
+    <p>this is a <span class="special">demo</span> paragraph for separate css file</p>
+    <p style="color: brown" class="secondP thirdP">this is a demo2 paragraph for separate css file</p>
+    <p id="identification">this is demo id</p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <button>click me</button>
+</body>
+</html>

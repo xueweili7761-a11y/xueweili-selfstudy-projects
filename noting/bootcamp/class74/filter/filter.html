@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fliter.css">
+    <script src="fliter.js"></script>
+</head>
+<body>
+<div class="reviews-section">
+    <h2>Customer Reviews</h2>
+
+    <!-- Filter and Sort Options -->
+    <div class="review-options">
+        <label for="filter">Filter by:</label>
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="5stars">5 Stars</option>
+            <option value="4stars">4 Stars</option>
+            <option value="3stars">3 Stars</option>
+            <option value="2stars">2 Stars</option>
+            <option value="1star">1 Star</option>
+        </select>
+
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="mostRecent">Most Recent</option>
+            <option value="highestRated">Highest Rated</option>
+            <option value="lowestRated">Lowest Rated</option>
+        </select>
+    </div>
+
+    <!-- Reviews List -->
+    <div class="reviews-list">
+        <div class="review-item">
+            <div class="review-header">
+                <div class="review-author">John Doe</div>
+                <div class="review-rating">★★★★★</div>
+                <div class="review-date">March 15, 2024</div>
+            </div>
+            <div class="review-body">
+                <p>This product is amazing! I wear it every day.</p >
+            </div>
+        </div>
+        <!-- Repeat .review-item for more reviews -->
+    </div>
+
+    <!-- Pagination -->
+    <div class="review-pagination">
+        <button class="prev-page">Previous</button>
+        <span>Page 1 of 10</span>
+        <button class="next-page">Next</button>
+    </div>
+</div>
+
+</body>
+</html>

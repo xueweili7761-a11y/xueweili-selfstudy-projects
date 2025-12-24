@@ -1,0 +1,22 @@
+#container {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: yellow;
+    border: 2px solid red;
+    position: relative;
+}
+
+.highlight {
+    color: purple;
+    font-size: 60px;
+}
+
+#hello {
+    display: block;
+    width: 30px;
+    position: absolute;
+    /*left: 0;*/
+    top: 0;
+    /*transition: all linear .3s;*/
+}

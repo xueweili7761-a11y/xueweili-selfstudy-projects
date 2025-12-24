@@ -1,0 +1,53 @@
+p {
+    color: purple;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.secondP {
+    text-decoration: red underline solid 2px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.thirdP {
+    color: black;
+}
+
+#identification {
+    color: aqua;
+}
+
+p .special {
+
+}
+
+ul li {
+    color: gray;
+}
+
+ul li:nth-child(3) {
+   font-size: 30px;
+}
+
+ul li:first-child {
+
+}
+
+button {
+    border: 1px red solid;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    transition: all linear .2s;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+li:before {
+    content: '•';
+}

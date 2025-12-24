@@ -1,0 +1,70 @@
+/*body {*/
+/*    background-color: beige;*/
+/*}*/
+/*when screen size >= 375px, apply the following rules:*/
+/*@media screen and (min-width: 375px) {*/
+/*   body {*/
+/*       background-color: yellow;*/
+/*   }*/
+/*}*/
+/*!*when screen size >= 768px, apply the following rules:*!*/
+/*@media screen and (min-width: 768px) {*/
+/*    body {*/
+/*        background-color: green;*/
+/*    }*/
+/*}*/
+/*!*when screen size >= 1024px, apply the following rules:*!*/
+/*@media screen and (min-width: 1024px) {*/
+/*    body {*/
+/*        color: white;*/
+/*        background-color: black;*/
+/*    }*/
+/*}*/
+/*max-width*/
+/*between*/
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.menu {
+    width: 90vw;
+    height: 40px;
+    border: 1px solid white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu img {
+     height: 90%;
+}
+
+.buttonGroup {
+    display: none;
+}
+
+ion-icon {
+    font-size: 40px;
+}
+
+@media screen and (min-width: 800px) {
+    .burger {
+        display: none;
+    }
+    .buttonGroup {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 50%;
+        border: 1px solid white;
+    }
+    .buttonGroup button {
+        background-color: black;
+        color: white;
+    }
+}

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body h1 {
+  color: red;
+}
+body h1:hover {
+  color: black;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.box1 {
+  display: none;
+}
+
+.box2 {
+  visibility: hidden;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+}
+.container:hover {
+  border: 20px solid red;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  position: relative;
+  animation: moving 4s linear forwards infinite 1s;
+}
+
+@keyframes moving {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 90%;
+    top: -100px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+/*# sourceMappingURL=qa.css.map */
